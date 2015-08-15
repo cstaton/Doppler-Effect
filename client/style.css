@@ -15,12 +15,12 @@ h1, form, div {
 }
 
 form {
-	margin-top: 70px;
+	margin-top: 30px;
 }
 
 .container {
 	width: 900px;
-	margin: 50px auto;
+	margin: 30px auto;
 }
 
 .invalid {
