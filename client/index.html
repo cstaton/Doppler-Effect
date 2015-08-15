@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Doppler Effect</title>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<script src="lib/jquery-2.1.4.min.js"></script>
+		<script src="lib/underscore.min.js"></script>
+		<script src="lib/backbone.min.js"></script>
+
+		<script src="models/AppModel.js"></script>
+		<script src="models/HeaderModel.js"></script>
+		<script src="models/DopplerModel.js"></script>
+
+		<script src="views/AppView.js"></script>
+		<script src="views/HeaderView.js"></script>
+		<script src="views/DopplerView.js"></script>
+
+		<script>
+			$(function() {
+				// Build a top level view for the entire app
+				var appView = new AppView({model: new AppModel()});
+
+				// Place the view onto the screen
+				$('body').append(appView.render());
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+	background: url(assets/space.gif);
+}
+
+h1, h2, label, div {
+	color: white;
+}
+
+div {
+	margin: auto;
+}
+
+h1, form, div {
+	text-align: center;
+}
+
+form {
+	margin-top: 70px;
+}
+
+.container {
+	width: 900px;
+	margin: 50px auto;
+}
+
+.invalid {
+	margin-top: 20px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 8px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 80%;
+    background: goldenrod;
+    margin-top: -4px;
+}
